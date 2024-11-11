@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.TitleText{
+    background-color: #212529;
+    text-align: center;
+    color:white;
+    
+    
+}  
+body.TitleText .TitleText {
+    font-size: 44px; 
+    text-decoration: underline;
+    font-weight:lighter;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+button{
+    width: 300px;
+    padding: 12px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+    animation: fadeIn 2s ease-in forwards;
+    
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05); 
+    
+}
+
+button:active{
+    background-color: #212529;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1; 
+    }
+  }
+
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.job_table {
+    
+    width: 200%; 
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.job_table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.table_header {
+    border-bottom: 1px solid white; 
+}
+
+
+
+

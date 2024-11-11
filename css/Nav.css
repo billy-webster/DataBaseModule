@@ -1,0 +1,65 @@
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #343A40;
+    width: 100%;
+    
+    padding: 10px 0;
+    
+    
+  }
+  
+  .spread-links{
+    float: right;
+  }
+
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.35s;
+    animation: fadeIn 2s ease-in forwards;
+    
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #212529;
+    color: white;
+    font-weight: bold;
+  }
+
+.title{
+  display: inline-block;
+  font-size: 20px; 
+  font-weight: light; 
+  padding: 12px 400px;
+  color:white;
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
+
+
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1; 
+  }
+}

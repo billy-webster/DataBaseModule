@@ -1,0 +1,122 @@
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    
+    
+  }
+  
+  .nav {
+    overflow: hidden;
+    background-color: #343A40;
+    width: 100%;
+    
+    padding: 10px 0;
+    
+    
+  }
+  
+ 
+
+
+  .nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.35s;
+    animation: fadeIn 2s ease-in forwards;
+    
+  }
+  
+  
+  
+  .nav a.active {
+    background-color: #212529;
+    color: white;
+    font-weight: bold;
+  }
+
+.title{
+  display: inline-block;
+  font-size: 23px; 
+  font-weight: light; 
+  padding: 12px 650px;
+  color:white;
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
+
+
+}
+
+.Login{
+    background-color: #212529;
+    padding-bottom: 20px;
+    color:white;
+    
+    
+} 
+body.Login .Login {
+    font-size: 44px; 
+    text-decoration: none;
+    font-weight:lighter;
+    animation: fadeIn 2s ease-in forwards;
+    text-align: center;
+}
+.Login img {
+    display: block; 
+    margin: 0 auto; 
+    width: 100px; 
+    height: auto; 
+    animation: fadeIn 2s ease-in forwards;
+}
+.Login icon{
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+}
+.Form {
+    
+    padding-bottom: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh; 
+    animation: fadeIn 2s ease-in forwards;
+    
+    
+
+}
+.label {
+    margin-bottom: 30px;
+    font-size:23px;
+    font-weight: lighter;
+    
+    
+}
+
+button{
+    width: 250px;
+    padding: 12px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+input{
+    width: 250px;
+    padding: 12px; 
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1; 
+  }
+}

@@ -1,0 +1,36 @@
+
+.HubText{
+    background-color: #212529;
+    text-align: center;
+    color:white;
+    
+    
+}    
+
+body.HubText .HubText {
+    font-size: 44px; 
+    text-decoration: underline;
+    font-weight:lighter;
+    animation: fadeIn 2s ease-in forwards;
+}
+ .HubDescrip {
+    font-size: 14px; 
+    text-decoration: none;
+    font-weight:lighter;
+    
+    animation: fadeIn 2s ease-in forwards;
+}
+
+
+
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      
+    }
+    100% {
+      opacity: 1; 
+      
+    }
+  }
